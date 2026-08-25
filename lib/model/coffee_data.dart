@@ -10,7 +10,7 @@ List<CoffeeModel> coffeeData = [
     des: 'A cappuccino is an espresso-based coffee drink topped with steamed milk foam.',
     instruction: 'Sugar 50%',
     price: 2.5,
-    favorite: true,
+    favorite: false,
     size: ['S', 'M', 'L'],
   ),
   CoffeeModel(
@@ -18,7 +18,7 @@ List<CoffeeModel> coffeeData = [
     name: 'Latte',
     category: 'Hot Coffee',
     type: 'Coffee',
-    image: 'https://png.pngtree.com/png-clipart/20250106/original/pngtree-hot-coffee-latte-isolated-png-image_18811568.png',
+    image: 'https://i.pinimg.com/736x/ad/e9/ad/ade9ad2b023c1b67b36fb2b322427334.jpg',
     des: 'A latte is made with espresso and steamed milk with a smooth and creamy taste.',
     instruction: 'Sugar 50%',
     price: 3.0,
@@ -34,7 +34,7 @@ List<CoffeeModel> coffeeData = [
     des: 'A mocha is a delicious coffee drink combining espresso, chocolate, and steamed milk.',
     instruction: 'Sugar 50%',
     price: 3.5,
-    favorite: true,
+    favorite: false,
     size: ['S', 'M', 'L'],
   ),
   CoffeeModel(
@@ -58,7 +58,7 @@ List<CoffeeModel> coffeeData = [
     des: 'Espresso is a concentrated coffee brewed by forcing hot water through finely ground coffee.',
     instruction: 'No Sugar',
     price: 1.8,
-    favorite: true,
+    favorite: false,
     size: ['S', 'M'],
   ),
   CoffeeModel(
@@ -82,7 +82,7 @@ List<CoffeeModel> coffeeData = [
     des: 'A macchiato is an espresso topped with a small amount of steamed milk foam.',
     instruction: 'Sugar 25%',
     price: 2.8,
-    favorite: true,
+    favorite: false,
     size: ['S', 'M'],
   ),
   CoffeeModel(
@@ -94,7 +94,7 @@ List<CoffeeModel> coffeeData = [
     des: 'A creamy latte flavored with sweet caramel syrup and topped with milk foam.',
     instruction: 'Sugar 75%',
     price: 3.8,
-    favorite: true,
+    favorite: false,
     size: ['S', 'M', 'L'],
   ),
   CoffeeModel(
@@ -118,7 +118,7 @@ List<CoffeeModel> coffeeData = [
     des: 'Iced coffee is brewed coffee served chilled with ice for a refreshing taste.',
     instruction: 'Sugar 50%',
     price: 2.5,
-    favorite: true,
+    favorite: false,
     size: ['S', 'M', 'L'],
   ),
   CoffeeModel(
@@ -142,7 +142,7 @@ List<CoffeeModel> coffeeData = [
     des: 'Iced mocha combines espresso, chocolate, cold milk, and ice for a sweet coffee drink.',
     instruction: 'Sugar 75%',
     price: 3.8,
-    favorite: true,
+    favorite: false,
     size: ['S', 'M', 'L'],
   ),
   CoffeeModel(
@@ -166,7 +166,7 @@ List<CoffeeModel> coffeeData = [
     des: 'Matcha latte is a creamy drink made with Japanese green tea powder and steamed milk.',
     instruction: 'Sugar 50%',
     price: 3.5,
-    favorite: true,
+    favorite: false,
     size: ['S', 'M', 'L'],
   ),
   CoffeeModel(
