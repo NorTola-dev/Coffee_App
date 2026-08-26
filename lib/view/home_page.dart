@@ -1,5 +1,6 @@
 import 'package:coffeeapp/model/coffee_data.dart';
 import 'package:coffeeapp/model/coffee_model.dart';
+import 'package:coffeeapp/view/add_to_card_page.dart';
 import 'package:coffeeapp/view/detail_page.dart';
 import 'package:flutter/material.dart';
 
@@ -35,7 +36,12 @@ class _HomePageState extends State<HomePage> {
         ),
         actions: [
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => AddToCardPage()),
+              );
+            },
             icon: Icon(Icons.shopping_bag, color: Colors.brown),
           ),
         ],
@@ -127,7 +133,9 @@ class _HomePageState extends State<HomePage> {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => DetailPage(model: item,)),
+                MaterialPageRoute(
+                  builder: (context) => DetailPage(model: item),
+                ),
               );
             },
             child: Container(
