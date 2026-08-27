@@ -2,6 +2,7 @@ import 'package:coffeeapp/model/coffee_data.dart';
 import 'package:coffeeapp/model/coffee_model.dart';
 import 'package:coffeeapp/view/add_to_card_page.dart';
 import 'package:coffeeapp/view/detail_page.dart';
+import 'package:coffeeapp/view/search_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -66,6 +67,12 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 15),
 
             TextField(
+              onTap: () {
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => SearchPage()),
+                );
+              },
               decoration: InputDecoration(
                 prefixIcon: Icon(Icons.search),
                 hintText: 'Search your favorite coffee...',
